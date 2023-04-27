@@ -13,7 +13,3 @@
 0 -> 2 = lose
 1 -> 0 = lose
 2 -> 1 = lose
-
-
-5 wins == winner 
-

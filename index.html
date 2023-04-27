@@ -2,10 +2,49 @@
     <head lang="en">
         <meta charset="utf-8"> 
         <link rel="stylesheet" href="style.css">
-        <script src="code.js"></script>
+        <title>PAPER ROCK SCISSORS</title>
     </head>
-    <body>
-    
-    </body>
 
+    <body>
+        <header>
+            <a class="link" href="https://github.com/philippOkie">GitHub</a>
+        </header>
+        <div class="result" id="resultMessage">RESULT</div>
+        
+        <div class="score-counter">
+            <div class="score-container">
+                <div class="pr" id="playerResult">PLAYER'S SCORES</div>
+                <div class="score">SCORES</div>
+                <div class="cp" id="computerResult">COMPUTER'S SCORES</div>
+            </div>
+        
+        </div>
+
+        <div class="choicesContainer">
+            <div class="case">
+                <span class="over-box">PLAYER CHOICE</span>
+                <div class="box">
+                    <img src="img/player.png" id="playerChoice" alt="player" width="300" height="300" />
+                </div>
+            </div>
+
+            <div class="case">
+                <span class="over-box">COMPUTER CHOICE</span>
+                <div class="box">
+                    <img src="img/computer.png" id="compChoice" alt="computer" width="300" height="300" />
+                </div>
+            </div>
+        </div>
+
+        <div class="buttonContainer">
+            <button id="paper"><img src="img/toilet-paper.png" alt="PAPER" width="150" height="150" /></button>
+            <button id="rock"><img src="img/rocks.png" alt="ROCK" width="150" height="150" /></button>
+            <button id="scissors"><img src="img/scissors.png" alt="SCISSORS" width="150" height="150" /></button>
+        </div>
+
+        <footer>
+            <h3>Philipp</h3>
+        </footer>
+        <script src="code.js"></script> 
+    </body>
 </html>
